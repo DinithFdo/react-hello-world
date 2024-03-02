@@ -7,9 +7,16 @@ import Hello from './Components/Hello';
 function App() {
   return (
     <div className="App">
-      {/* <Greet/> */}
+      <Greet name="Bruce" heroName="Batman">
+        <p>This is a child element</p>
+      </Greet>
+      <Greet name="Diana" heroName="Wonder Woman"/>
+      <Greet name="Clark" heroName="Superman"/>
+      <Welcome name="Dinith"/>
+      <Welcome name="Ian"/>
+      
       {/* <Welcome/> */}
-      <Hello/>
+      {/* <Hello/> */}
     </div>
   );
 }
